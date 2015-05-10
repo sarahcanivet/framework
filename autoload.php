@@ -8,4 +8,7 @@ use Symfony\Component\ClassLoader\UniversalClassLoader;
  
 $loader = new UniversalClassLoader();
 $loader->register();
+
+$instance  = new Object() ; 
+
  
